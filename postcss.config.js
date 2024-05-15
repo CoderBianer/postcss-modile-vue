@@ -17,10 +17,10 @@ export default {
     mobile({
       viewportWidth: 375, //设计稿宽度
       enableMediaQuery: true,
-      desktopWidth: 375,
+      desktopWidth: 375,//桌面最大宽度
       minDesktopDisplayWidth: 640, //屏幕尺寸超过640px时，设置最大屏幕尺寸为 desktopWidth 值
-      border: true,
-      appContainingBlock: 'auto',
+      border: true,//边框
+      appContainingBlock: 'auto',//重置fixed定位元素为 appSelector
       appSelector: ".root-class", //页面最外层选择器，例如“#app”，用于设置在桌面端和移动端横屏时的居中样式
     }),
   ],
